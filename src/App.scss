@@ -1,0 +1,32 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #143066;
+}
+
+#quote-box {
+  background-color: #282c34;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  display: center;
+ // align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border-radius: 10px;
+  position: absolute;
+}
+
+#buttons {
+  display:flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+#header{
+ display: flex;
+ justify-content: center;
+}
